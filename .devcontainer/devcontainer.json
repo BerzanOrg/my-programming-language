@@ -6,7 +6,11 @@
         "vscode": {
             "settings": {
                 "terminal.integrated.shellIntegration.decorationsEnabled": "never"
-            }
+            },
+            "extensions": [
+                "bradlc.vscode-tailwindcss",
+                "heybourn.headwind"
+            ]
         }
     }
 }
