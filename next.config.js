@@ -2,9 +2,6 @@
 const nextConfig = {
     output: "export",
     basePath: process.env.NODE_ENV === "production" ? "/my-programming-language" : undefined,
-    experimental: {
-        appDir: true,
-    },
     reactStrictMode: true,
 }
 
